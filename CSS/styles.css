@@ -17,7 +17,7 @@ body {
 }
 
 img {
-  max-width: 100;
+  max-width: 100%;
   display: block;
 }
 
@@ -26,7 +26,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  height: 49;
+  height: 49px;
 }
 
 header img {
