@@ -120,26 +120,43 @@ footer p a {
     padding: 0.1em 0.75em;
   }
 
-    /* Tablet Viewport: Style Rules for hero image */
-    #hero a img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-bottom: 1em;
-    }
+  /* Tablet Viewport: Style Rules for hero image */
+  #hero a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+  }
 
   /* Tablet Viewport: Style rules for main content area */
-  main ul {
-    margin: 0 0 4% 10%;
+  main {
+    clear: left;
   }
 
-  /* #about {
-     text-align: center;
+  main h1 {
+    font-size: 1.8em;
+    float: right;
+    width: 60%;
+    margin-right: 1.6em;
   }
 
-  #hobbies {
-    text-align: center;
-  } */
+  main img {
+    float: left;
+    width: 25%;
+    margin: 6px;
+  }
+
+  main p {
+    float: right;
+    width: 60%;
+    font-size: 1.4em;
+    margin-right: 2em;
+  }
+
+  main #goals {
+    clear: both;
+  }
+
 }
 
 /* Media Query for Desktop Viewport */
