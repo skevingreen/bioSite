@@ -121,8 +121,12 @@ footer p a {
 
 /* Media Query for Tablet Viewport */
  @media screen and (min-width: 630px), print {
+  /* disable mobile elements */
+  .mobile {
+    display: none;
+  }
 
-  /* Tablet Viewport: Show tablet-desktop class */
+  /* tablet Viewport: Show tablet-desktop class */
   .tablet-desktop {
     display: block;
   }
