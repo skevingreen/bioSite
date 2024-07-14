@@ -20,6 +20,7 @@ img {
 /* style rules for main content */
 main {
   color: #fff;  /* set font color to white */
+  font-family: "Petrona", serif;
 }
 
 /* Style rules for navigation */
