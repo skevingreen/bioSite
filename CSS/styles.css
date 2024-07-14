@@ -17,6 +17,10 @@ img {
   height: auto;
 }
 
+/* * {
+  box-sizing: border-box;
+} */
+
 /* style rules for main content */
 main {
   color: #fff;  /* set font color to white */
@@ -80,7 +84,7 @@ nav li a {
   bottom: 0;
   background: rgba(0, 0 , 0 , 0.5);
   color: #fff;
-  width: 99%;
+  width: 100%;
   padding: 5px;
   text-align: center;
   font-family: "Overpass", sans-serif;
@@ -99,6 +103,10 @@ figure {
 figcaption {
   padding: 2%;
   border-top: 4px solid #2a1f14;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /* Style rules for footer content */
@@ -151,12 +159,45 @@ footer p a {
     background-color: #666633;
   }
 
-  /* resize the left picture to better match the right picture */
-  #accomplishments img {
-    max-width: 65%;
+  /* adjust the caption width */
+  /* .pic-text {
+    width: 98%;
+  } */
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1162px) {
+  /* tablet should have two columns instead of one like mobile */
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
   }
 
-  .pic-text {
-    width: 98%;
+  /* Desktop Viewport: Style rule for header */
+  header {
+    width: 25%;
+    float: left;
+    padding-bottom: 0;
+    margin-top: 2em;
+  }
+
+  /* Desktop Viewport: Style rules for nav area */
+  nav {
+    float: right;
+    width: 70%;
+  }
+
+  nav ul {
+    text-align: right;
+  }
+
+  nav li {
+    border: none;
+    display: inline-block;
+  }
+
+  nav li a {
+    padding: 0.5em 1em;
   }
 }
