@@ -1,3 +1,9 @@
+/*
+ * Student Name: Scott Green
+ * File Name: styles.css
+ * Date: July 14, 2024
+ */
+
 /* style rules for mobile */
 
 /* style reset rules */
@@ -7,8 +13,12 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption {
   border: 0;
 }
 
+/***********************************************************************************************************************************************
+ ***** According to MDN Web Docs, for HTML :root is similar to <html> but with a higher specificity.  This is one pseudo class that I did  *****
+ ***** not see covered in the textbook.                                                                                                    *****
+ ***********************************************************************************************************************************************/
 /* style rules for body and images */
-body {
+:root body {
   background-color: #006600;  /* set background color to Pakistan green */
 }
 
@@ -29,7 +39,10 @@ nav {
   margin-bottom: 1%;
 }
 
-nav ul {
+/***********************************************************************************************************************************************
+ ***** Menu is a semantic alternative to ul but is treated the same.  This is one HTML element that I did not see covered in the textbook. *****
+ ***********************************************************************************************************************************************/
+nav menu {
   list-style-type: none;
   text-align: center;
 }
@@ -131,7 +144,7 @@ footer p a {
     display: block;
   }
 
-  /* tablet should have two columns instead of one like mobile */
+  /* tablet should have two columns instead of one */
  .grid {
     display: grid;
     grid-template-columns: auto auto;
@@ -189,7 +202,10 @@ footer p a {
     width: 70%;
   }
 
-  nav ul {
+  /***********************************************************************************************************************************************
+   ***** Menu is a semantic alternative to ul but is treated the same.  This is one HTML element that I did not see covered in the textbook. *****
+   ***********************************************************************************************************************************************/
+  nav menu {
     text-align: right;
   }
 
