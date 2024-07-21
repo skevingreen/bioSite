@@ -27,6 +27,11 @@ img {
   height: auto;
 }
 
+header {
+  text-align: center;
+}
+
+
 /* style rules for main content */
 main {
   color: #fff;  /* set font color to white */
