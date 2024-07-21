@@ -50,6 +50,7 @@ nav {
 nav menu {
   list-style-type: none;
   text-align: center;
+  margin-right: 6%;
 }
 
 nav li {
