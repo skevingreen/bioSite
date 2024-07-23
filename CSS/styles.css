@@ -222,7 +222,7 @@ footer p a:hover {
 
   th, td {
     border: 1px solid #fff;
-    padding: .5%;
+    padding: .5% .5%;
   }
 }
 
