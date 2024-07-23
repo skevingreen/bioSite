@@ -37,6 +37,11 @@ main div section a:hover {
   box-shadow: 6px 6px 10px #c5a687;
 }
 
+/* make the header stay in the center for mobile and tablet */
+header {
+  text-align: center;
+}
+
 /* make header link stand out when hovering over it */
 header a:hover {
   box-shadow: 6px 6px 10px #c5a687;
@@ -217,7 +222,7 @@ footer p a:hover {
 
   th, td {
     border: 1px solid #fff;
-    padding: 1%;
+    padding: .5%;
   }
 }
 
