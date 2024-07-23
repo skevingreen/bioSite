@@ -1,7 +1,7 @@
 /*
  * Student Name: Scott Green
  * File Name: styles.css
- * Date: July 14, 2024
+ * Date: July 22, 2024
  */
 
 /* style rules for mobile */
@@ -27,10 +27,20 @@ img {
   height: auto;
 }
 
-header {
-  text-align: center;
+/* make picture links stand out when hovering over them */
+main div section a:hover {
+  box-shadow: 6px 6px 10px #c5a687;
 }
 
+/* make hero image link stand out when hovering over it */
+#hero a:hover {
+  box-shadow: 6px 6px 10px #c5a687;
+}
+
+/* make header link stand out when hovering over it */
+header a:hover {
+  box-shadow: 6px 6px 10px #c5a687;
+}
 
 /* style rules for main content */
 main {
@@ -107,7 +117,7 @@ nav li a {
   font-weight: bold;
 }
 
-/* put a border and shadow around figures*/
+/* put a border and shadow around figures */
 figure {
   border: 4px solid #2a1f14;
   box-shadow: 6px 6px 10px #c5a687;
@@ -121,12 +131,15 @@ figcaption {
   border-top: 4px solid #2a1f14;
 }
 
+/* user border box on all elements */
 * {
   box-sizing: border-box;
 }
 
+/* put some padding around about table items */
 dt, dd {
   padding: 1%;
+  margin: 1% 1%;
 }
 
 /* Style rules for footer content */
@@ -137,9 +150,16 @@ footer {
   color: #fff;
 }
 
+/* define font color in footer and remove link underline */
 footer p a {
   color: #fff;
   text-decoration: none;
+}
+
+/* make email link in footer standout when hovering over it */
+footer p a:hover {
+  background-color: #fff;
+  color: #006600
 }
 
 /* Media Query for Tablet Viewport */
@@ -161,7 +181,7 @@ footer p a {
     grid-gap: 20px;
   }
 
-  /* reset the background color */
+  /* reset the background colors */
   #goals {
     background-color: transparent;
   }
