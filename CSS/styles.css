@@ -90,6 +90,10 @@ nav li a {
   background-color: #666633;
 }
 
+#about-text2 h2 {
+  margin-left: 2%;
+}
+
 /* hide the hero banner on mobile */
 .tablet-desktop {
   display: none;
@@ -191,14 +195,6 @@ footer p a:hover {
     background-color: transparent;
   }
 
-  #about-text h1 {
-    background-color: transparent;
-  }
-
-  #about-text p {
-    background-color: transparent;
-  }
-
   /* make the second "row" a different color */
   .grid h1 {
     background-color: #666633;
@@ -214,11 +210,11 @@ footer p a:hover {
     border-collapse: collapse;
   }
 
-  caption {
+  /* caption {
     font-size: 1.5em;
     font-weight: bold;
     padding: 1%;
-  }
+  } */
 
   th, td {
     border: 1px solid #fff;
